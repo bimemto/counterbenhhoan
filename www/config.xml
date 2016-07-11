@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0" android-versionCode="16" id="com.gercekzikirmatik.realtasbeehcounter" version="2.0">
+    <name>Real Tasbeeh</name>
+    <description>
+        Real Digital Tasbeeh is a digital version of tasbih / tasbeeh that helps muslims dzikr activity.
+    </description>
+    <author email="gercekzikirmatik@gmail.com" href="https://cocoon.io">
+        Gercek Zikirmatik
+    </author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" version="1.0.0"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
+    <cocoon:plugin name="com.ludei.webviewplus.ios" version="1.0.1"/>
+    <cocoon:plugin name="com.ludei.webviewplus.android" version="1.5.0"/>
+    <preference name="Fullscreen" value="true"/>
+    <preference name="Orientation" value="portrait"/>
+    <cocoon:plugin name="com.ludei.installlocation.android" version=""/>
+    <preference name="android-installLocation" value="auto"/>
+    <preference name="CocoonSplashBackgroundColor" value="#ffffff"/>
+    <preference name="CocoonSplashPadding" value="14%"/>
+    <preference name="CocoonSplashDelay" value="4"/>
+    <cocoon:plugin name="https://github.com/cranberrygame/com.cranberrygame.cordova.plugin.analytics.flurry.git" version=""/>
+	<cocoon:plugin name="https://github.com/cranberrygame/cordova-plugin-ad-admob.git" version=""/>
+	<cocoon:plugin name="https://github.com/cranberrygame/cordova-plugin-exitappatsecond.git" version=""/>
+	<cocoon:plugin name="https://github.com/simplec-dev/powermanagement.git" version=""/>
+    <cocoon:plugin name="cordova-plugin-inappbrowser" version=""/>
+    <cocoon:plugin name="cordova-plugin-vibration" version=""/>
+    <cocoon:platform name="ios" version="4.1.0"/>
+<cocoon:platform name="android" version="5.0.0"/>
+<cocoon:plugin name="com.ludei.usersplash.ios" version="1.0.1"/>
+<cocoon:plugin name="com.ludei.usersplash.android" version=""/>
+<cocoon:plugin name="com.ludei.defaultres.ios" version="1.1.1"/>
+<cocoon:plugin name="com.ludei.defaultres.android" version="1.0.0"/>
+</widget>

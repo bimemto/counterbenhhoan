@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        },
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        },
+        "cordova-plugin-powermanagement": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "com.realtasbeeh.counter"
+        }
+    }
+}
